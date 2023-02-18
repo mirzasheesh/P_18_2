@@ -1,0 +1,68 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    border-bottom: 2px solid;
+}
+
+.contacts {
+    overflow: scroll;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 4px;
+    width: 60vw;
+    height: 70vh;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact img {
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.contact p {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.bttn {
+    border: 1px solid;
+    border-radius: 5px;
+    background: lightcyan;
+    font-size: large;
+    margin: 25px;
+    padding: 5px;
+}
+
+.centerFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerFlex input{
+    margin: 5px;
+}
+
+.authBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin-top: 40px;
+    padding: 25px;
+}
